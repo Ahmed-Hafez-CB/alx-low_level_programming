@@ -3,6 +3,11 @@
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there */
+/**
+ * main - prints a number and checks if it is postive,negative or zero
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	int n;
