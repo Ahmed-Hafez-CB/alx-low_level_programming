@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (y = 0; y < 10; y++)
 		{
-			if (x == y || (x*10 + y) == (y*10 + x))
+			if (x == y || (x * 10 + y) == (y * 10 + x))
 				continue;
 			putchar(x + '0');
 			putchar(y + '0');
