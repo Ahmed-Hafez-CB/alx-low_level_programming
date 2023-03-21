@@ -24,7 +24,7 @@ int main(void)
 	num2_half1 = num2 / 10000000000;
 	num1_half2 = num1 % 10000000000;
 	num2_half2 = num2 % 10000000000;
-	for (i = 93; i < 98; i++)
+	for (i = 93; i < 99; i++)
 	{
 		half1 = num1_half1 + num2_half1;
 		half2 = num1_half2 + num2_half2;
