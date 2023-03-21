@@ -1,12 +1,12 @@
 #include "main.h"
 
 /**
- * abs - calc abs of int
+ * _abs - calc abs of int
  * @n: our int
  *
  * Return: abs(n)
  */
-int abs(int n)
+int _abs(int n)
 {
 	if (n >= 0)
 		return (n);
