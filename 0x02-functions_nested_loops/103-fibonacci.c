@@ -17,6 +17,8 @@ int main(void)
 	{
 		sum = num1 + num2;
 		if (sum > 4000000)
+			break;
+		if ((sum % 2) == 2)
 			total_sum += sum;
 		num1 = num2;
 		num2 = sum;
