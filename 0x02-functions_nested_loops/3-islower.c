@@ -3,7 +3,7 @@
 /**
  * checks if alphabet is lowercase
  *
- * Retunr: 1 if lower else 0
+ * Return: 1 if lower else 0
  */
 int _islower(int c)
 {
