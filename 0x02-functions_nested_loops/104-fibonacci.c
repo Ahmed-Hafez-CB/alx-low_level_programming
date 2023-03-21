@@ -7,13 +7,19 @@
  */
 int main(void)
 {
-	int i;
-	unsigned long num1, num2, sum;
+	int i, range;
+	unsigned int num1, num2, sum;
 
-	for (i = 0; i < 98; i++)
+	num1 = 1;
+	num2 = 2;
+	range = 98;
+	printf("%d, %d, ", num1, num2);
+	for (i = 2; i < range; i++)
 	{
 		sum = num1 + num2;
-		printf("%lu, ", sum);
+		printf("%u, ", sum);
+		if (i != range - 1)
+			printf(", ");
 		num1 = num2;
 		num2 = sum;
 	}
