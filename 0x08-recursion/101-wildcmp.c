@@ -28,4 +28,6 @@ int valid(char *s1, char *s2, int i, int j)
  * Return: 1 if identical else zero
  */
 int wildcmp(char *s1, char *s2)
+{
 	return (valid(s1, s2, 0, 0));
+}
